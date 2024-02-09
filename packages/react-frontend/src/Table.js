@@ -5,7 +5,7 @@ function TableHeader() {
               <th>ID</th> {/* Add ID header */}
               <th>Name</th>
               <th>Job</th>
-              <th>Actions</th> {/* Optional: For clarity */}
+              <th>Actions</th> 
           </tr>
       </thead>
   );

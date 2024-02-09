@@ -6,7 +6,7 @@ function MyApp() {
   const [characters, setCharacters] = useState([]);
 
   function postUser(person) {
-    return fetch("http://localhost:3000/users", { // Ensure the URL is correct
+    return fetch("http://localhost:8000/users", { // Ensure the URL is correct
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -40,7 +40,7 @@ function MyApp() {
   }
 
   function fetchUsers() {
-    return fetch("http://localhost:3000/users"); // 
+    return fetch("http://localhost:8000/users"); // 
   }
 
   useEffect(() => {
